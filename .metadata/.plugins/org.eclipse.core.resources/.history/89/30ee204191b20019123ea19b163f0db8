@@ -1,0 +1,13 @@
+package com.zensar.main;
+
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SpringApp {
+
+	public static void main(String[] args) {
+		//To create a Spring IoC Container object
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("Greeting.xml"); 
+	}
+
+}

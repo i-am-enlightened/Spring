@@ -1,0 +1,18 @@
+package com.zensar.login;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+
+@Controller
+public class LoginController {
+
+	public String validateUser(User user,ModelMap map) {
+		if(user.getUsername().equals("swapnil") && user.getPassword().equals("zxc123")) {
+			map.addAttribute("user",user);
+			return "Success";
+		}
+		else {
+			return "Login";
+		}
+	}
+}

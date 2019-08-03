@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Jul 31 19:12:15 IST 2019
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\TRG\\.m2\\repository\\org\\springframework\\spring-web\\5.1.8.RELEASE\\spring-web-5.1.8.RELEASE.jar=D\:\\apache-tomcat-9.0.22\\wtpwebapps\\LoginWebApp\\WEB-INF\\lib\\spring-web-5.1.8.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\Batch\ 5\ (java\ full\ stack)\\git\\Spring\\LoginSpringApp\\WebContent\\WEB-INF\\lib\\spring-web-5.1.8.RELEASE.jar=D\:\\apache-tomcat-9.0.22\\wtpwebapps\\LoginSpringApp\\WEB-INF\\lib\\spring-web-5.1.8.RELEASE.jar
+org.eclipse.jst.jee.server\:LoginSpringApp=D\:\\apache-tomcat-9.0.22\\wtpwebapps\\LoginSpringApp

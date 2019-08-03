@@ -1,0 +1,14 @@
+package com.zensar.services.business;
+/*
+ * Author: Swapnil Shrivastava
+ * Creation Date: 30th Jul 2019 4:51 PM
+ * Modified Date: 30th Jul 2019 4:51 PM
+ * Version: 1.0
+ * Copyright: Represents product services which can be accessed by presentation layer.
+ * 			  It encapsulates business logic of product entity.
+ */
+
+public interface ProductService {
+
+	
+}

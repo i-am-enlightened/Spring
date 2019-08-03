@@ -1,0 +1,20 @@
+package com.zensar.spring;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.zensar.simple.FestivalGreeting;
+
+/**
+ * Hello world!
+ *
+ */
+public class GreetingApp 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("Greetings.xml");
+        FestivalGreeting greet= ctx.getBean("bean1",FestivalGreeting.class);
+		System.out.println(greet.sayGreet());
+    }
+}

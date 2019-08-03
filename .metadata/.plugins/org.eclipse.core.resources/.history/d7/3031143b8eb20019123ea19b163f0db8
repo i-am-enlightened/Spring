@@ -1,0 +1,16 @@
+package com.zensar.spring;
+
+public class FestivalGreeting implements Greeting {
+
+	public FestivalGreeting() {
+		// TODO Auto-generated constructor stub
+		
+	}
+	
+	@Override
+	public String sayGreet() {
+		// TODO Auto-generated method stub
+		return "Happy Dusshera";
+	}
+
+}

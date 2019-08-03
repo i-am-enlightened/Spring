@@ -1,0 +1,45 @@
+package com.zensar.services.business;
+
+import java.util.List;
+
+import com.zensar.daos.ProductDao;
+import com.zensar.entities.Product;
+/*
+ * Author: Swapnil Shrivastava
+ * Creation Date: 30th Jul 2019 4:57 PM
+ * Modified Date: 30th Jul 2019 4:57 PM
+ * Version: 1.0
+ * Copyright: Zensar Technologies. All rights reserved.
+ * Description: Represents product services which can be accessed by presentation layer.
+ * 			  	It encapsulates business logic of product entity.
+ */
+public class ProductServiceImpl implements ProductService {
+
+	public ProductDao dao;
+	
+	public void create(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void edit(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void remove(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void findProductById(int productId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Product> findAllProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.zensar.daos;
+
+import java.util.List;
+
+import com.zensar.entities.Product;
+
+public interface ProuctDao {
+
+	void insert(Product product);
+	void update(Product product);
+	void delete(Product product);
+	Product getById(int productId);
+	List<Product> getAll();
+}
